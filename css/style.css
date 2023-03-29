@@ -1,0 +1,337 @@
+/* im-fell-english-regular - latin */
+@font-face {
+   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+   font-family: 'IM Fell English';
+   font-style: normal;
+   font-weight: 400;
+   src: url('../fonts/im-fell-english-v14-latin-regular.eot'); /* IE9 Compat Modes */
+   src: url('../fonts/im-fell-english-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/im-fell-english-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/im-fell-english-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/im-fell-english-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/im-fell-english-v14-latin-regular.svg#IMFellEnglish') format('svg'); /* Legacy iOS */
+ }
+html
+{
+  box-sizing: border-box;
+}
+*,*::before,*::after
+{
+box-sizing: inherit;
+}
+
+.wrapper 
+{
+  max-width: 1260px;
+  margin: 0px;
+}
+.header
+{
+  margin-left: 170px;
+  margin-right: 170px;
+  background: #000000;
+ height: 95px;
+
+ top: 0;
+ left: 0;
+ width: 70%;
+ 
+ 
+}
+.headerlogo
+{
+display: flex;
+flex-wrap: wrap;
+}
+.logo
+{
+  height: 46px;
+  width: 46px;
+  margin-top: 4px;
+  margin-left: 5px;
+}
+.headerlogo .logotext
+{
+
+margin-left: 5px;
+margin-top: 10px;
+color: white;
+}
+.header_wrapper
+{
+ display: flex;
+ flex-wrap: wrap;
+ 
+ justify-content: space-between;
+
+}
+.headerlist
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.headeritem
+{
+  margin-right: 21px;
+}
+.headeritem:last-child
+{
+  margin-right: 86px;
+}
+.headerlink
+{
+  font-size: 20px;
+  line-height: 25px;
+  color: white;
+  text-decoration: none;
+
+}
+
+.main
+{
+  margin-left: 170px;
+  margin-right: 170px;
+}
+.main_img
+{
+  position: absolute;
+  top: 23px;
+}
+
+.text_main 
+{
+  position: absolute;
+  margin-top: 185px;
+  
+  margin-left: 750px;
+  font-size: 32px;
+  line-height: 41px;
+
+}
+
+.shop_button
+{
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  margin-top: 371px;
+  margin-left: 750px;
+  background: #000000;
+  height: 58.35px;
+  width: 104.81px;
+  
+}
+.shoplink
+{
+  color: white;
+  font-size: 20px;
+line-height: 20px;
+text-decoration: none;
+margin-top: 15px;
+}
+
+.chosen_text
+{
+  position: absolute;
+  margin-top: 915px;
+  margin-left: 439px;
+  font-size: 40px;
+  line-height: 51px;
+  color: #000000; 
+
+}
+.chosen_img
+{
+ position: absolute;
+ margin-top: 1026px;
+}
+.hoodies_text
+{
+  display: flex;
+ flex-wrap: wrap;
+ font-size: 20px;
+ line-height: 25px;
+ text-align: center;
+ 
+ color: #000000;
+ position: absolute;
+ margin-top: 1482px;
+}
+.Zipped_text
+{ color: #000000;
+  text-decoration: none;
+  margin-left: 25px;
+  margin-right: 20px;
+}
+.Embrace_text
+{ color: #000000;
+  text-decoration: none;
+  margin-left: 100px;
+  margin-right: 20px;
+}
+.Orchids_text
+{color: #000000;
+  text-decoration: none;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+.Hoodie_text
+{color: #000000;
+  text-decoration: none;
+  margin-left: 70px;
+  margin-right: 20px;
+}
+.footer
+{
+  position: absolute;
+
+  margin-left: 170px;
+  margin-right: 170px;
+  margin-top: 1570px;
+  background: #000000;
+ height: 95px;
+ width: 70%;
+ 
+}
+.sign_up
+{
+position: absolute;
+ margin-left: 500px;
+  font-size: 20px;
+line-height: 25px;
+color: #FFFFFF;
+}
+.e-mail_input
+{
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 60px;
+  height: 30px;
+}
+.footer ul li
+{
+  position: relative;
+  
+  font-size: 11.8px;
+line-height: 15px;
+margin-left: 1040px;
+top: 50px;
+color: #FFFFFF;
+list-style-type: disc;
+}
+.socialtext
+{
+  color: #FFFFFF;
+  text-decoration: none;
+
+
+}
+.shop 
+{
+  margin-left: 170px;
+  margin-right: 170px;
+  
+   
+}
+.shop_img
+{
+  border-right: 3px solid black;
+    height: 500px;
+    width: 700px;
+}
+.shoptext_hoodie
+{
+  font-family: 'IM Fell English';
+position: absolute;
+margin-left: 750px;
+top: 110px;
+  font-size: 20px;
+line-height: 25px;
+color: #000000;
+border-bottom: 1px solid #000000;
+}
+.size_input
+{
+  position: absolute;
+  font-family: 'IM Fell English';
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+ top: 195px;
+ margin-left: 50px;
+ 
+ border-bottom: 2px solid #000000;
+}
+.basket_button
+{
+  position: absolute;
+  top: 230px;
+  margin-left: 40px;
+ 
+  background: #000000;
+  width: 296px;
+  height: 83px;
+}
+.basket
+{
+  margin-left: 170px;
+  margin-right: 170px;
+  
+}
+
+.backet_img
+{
+position: absolute;
+  width: 191px;
+  height: 126px;
+  top: 95px;
+}
+.backettext_hoodie
+{
+
+  font-family: 'IM Fell English';
+  position: absolute;
+  margin-left: 220px;
+  top: 100px;
+    font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+  
+}
+.purchase_button
+{
+  position: absolute;
+  top: 330px;
+  margin-left: 600px;
+  padding-right: 120px;
+  background: #000000;
+  width: 296px;
+  height: 83px;
+}
+.backetlink
+{
+
+  font-family: 'IM Fell English';
+  position: absolute;
+  text-decoration: none;
+  
+    font-size: 20px;
+  line-height: 25px;
+  color: white;
+}
+.backet_order
+{
+  position: relative;
+  left: 1000px;
+  top: 100px;
+  font-family: 'IM Fell English';
+  font-size: 18px;
+line-height: 23px;
+color: #000000;
+border-left:2px solid black;
+height: 500px;
+margin-right: 10px;
+
+}
