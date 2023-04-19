@@ -1,0 +1,238 @@
+@font-face {
+   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+   font-family: 'IM Fell English';
+   font-style: normal;
+   font-weight: 400;
+   src: url('../fonts/im-fell-english-v14-latin-regular.eot'); /* IE9 Compat Modes */
+   src: url('../fonts/im-fell-english-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/im-fell-english-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/im-fell-english-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/im-fell-english-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/im-fell-english-v14-latin-regular.svg#IMFellEnglish') format('svg'); /* Legacy iOS */
+ }
+@media screen and (max-width: 400px)
+{
+
+   .header 
+   {
+      margin-left: 0px;
+      width: 400px;
+      font-size: 16px;
+      height: 68px;
+   }
+   .headerlist
+   {
+    margin-top: 7px;
+    margin-left: 55px;
+
+   }
+ .headerlink
+ {
+   bottom: 30px;
+   font-size: 12px;
+ }
+.main 
+{
+   margin-left: 0px;
+}
+.main_img
+{
+   top: 9px;
+   width: 300px;
+}
+.text_main
+{
+
+font-size: 14px;
+bottom: 600px;
+margin-left: 190px;
+line-height: 20px;
+}
+.shop_button
+{
+   
+   bottom: 550px;
+   margin-left: 240px;
+   height: 38.35px;
+  width: 74.81px;
+}
+.shoplink
+{
+  margin-top: 7px;
+ font-size: 12px;
+
+}
+.chosen_text
+{
+bottom: 0px;
+margin-left: 80px;
+font-size: 28px;
+}
+.chosen_img
+{
+display: none;
+
+}
+.hoodies_text
+{
+   display: none;
+}
+.hoodies_adaptivefirstpair
+{
+   display: flex;
+   font-size: 18px;
+   line-height: 20px;
+   text-align: center;
+   text-decoration: none;
+}
+.hoodies_adaptive
+{
+   display: flex;
+   font-size: 18px;
+   line-height: 20px;
+   text-align: center;
+   text-decoration: none;
+}
+.chosen_adaptivefirst
+{
+   display: flex;
+   margin-top: 700px;
+   width: 390px;
+}
+.chosen_adaptivesecond
+{
+   display: flex;
+   margin-top: 30px;
+   width: 390px;
+
+}
+.Zipped_adaptive
+{
+   margin-left: 40px;
+   color: #000000;
+  text-decoration: none;
+}
+.Embrace_adaptive
+{
+   margin-left: 120px;
+   color: #000000;
+  text-decoration: none;
+}
+
+.Orchids_adaptive
+{
+   margin-left: 40px;
+   color: #000000;
+  text-decoration: none;
+}
+.Hoodie_adaptive
+{
+      margin-left: 120px;
+   color: #000000;
+  text-decoration: none;
+}
+
+.footer
+{
+top: 0px;
+margin-left: 0px;
+width: 400px;
+}
+.sign_up
+{
+   font-size: 12px;
+   margin-left: 150px;
+}
+.e-mail_input
+{
+   margin-left: 120px;
+   margin-top: 60px;
+   width: 120px;
+}
+.footer ul li
+{
+   font-size: 10px;
+   margin-left: 300px;
+
+}
+.shop
+{
+margin: 0px;
+
+}
+.shop_img
+{
+   border: none;
+ width: 400px;
+ height: 415px;
+border-bottom: 1px solid black;
+}
+.shoptext_hoodie
+{
+   font-size: 18px;
+   line-height: 3;
+   margin-left: 15px;
+   
+   margin-top: 400px;
+   border: none;
+   border-right: 2px solid black ;
+}
+.basket_button
+{
+ width: 120px;
+height: 50px;
+margin-top: 390px;
+margin-left: 270px;
+
+}
+.size_input
+{
+   width: 100px;
+   height: 30px;
+   margin-top: 350px;
+   margin-left: 270px;
+}
+.basket
+{
+   margin: 0px;
+}
+.backet_img
+{
+top: 68px;
+}
+.backettext_hoodie
+{
+   top: 65px;
+   line-height: 1.5;
+   font-size: 14px;
+}
+.purchase_button
+{
+  margin: 0px;
+   top: 315px;
+   width: 150px;
+   height: 70px;
+   left: 200px;
+}
+.backet_order
+{
+   font-size: 14px;
+margin: 0px;
+top: 150px;
+left: 10px;
+border-left: none;
+border-top: 1px solid black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+  }

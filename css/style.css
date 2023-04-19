@@ -19,7 +19,7 @@ html
 {
 box-sizing: inherit;
 }
-
+  
 .wrapper 
 {
   max-width: 1260px;
@@ -35,8 +35,6 @@ box-sizing: inherit;
  top: 0;
  left: 0;
  width: 70%;
- 
- 
 }
 .headerlogo
 {
@@ -159,6 +157,12 @@ margin-top: 15px;
  position: absolute;
  margin-top: 1482px;
 }
+.hoodies_adaptive
+{
+display:none;
+
+
+}
 .Zipped_text
 { color: #000000;
   text-decoration: none;
@@ -258,11 +262,12 @@ border-bottom: 1px solid #000000;
   font-family: 'IM Fell English';
   font-size: 14px;
   line-height: 18px;
+  width: 100px;
   color: #000000;
  top: 195px;
  margin-left: 50px;
  
- border-bottom: 2px solid #000000;
+ 
 }
 .basket_button
 {
@@ -334,4 +339,16 @@ border-left:2px solid black;
 height: 500px;
 margin-right: 10px;
 
+}
+.chosen_adaptivefirst
+{
+  display: none;
+}
+.chosen_adaptivesecond
+{
+  display: none;
+}
+.hoodies_adaptivefirstpair
+{
+  display: none;
 }
