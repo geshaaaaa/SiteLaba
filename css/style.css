@@ -43,14 +43,14 @@ flex-wrap: wrap;
 }
 .logo
 {
-  height: 46px;
-  width: 46px;
+  height: 66px;
+  width: 66px;
   margin-top: 4px;
   margin-left: 5px;
 }
 .headerlogo .logotext
 {
-
+font-size: 26px;
 margin-left: 5px;
 margin-top: 10px;
 color: white;
@@ -133,8 +133,8 @@ margin-top: 15px;
 .chosen_text
 {
   position: absolute;
-  margin-top: 915px;
-  margin-left: 439px;
+  margin-top: 755px;
+  margin-left: 709px;
   font-size: 40px;
   line-height: 51px;
   color: #000000; 
@@ -143,13 +143,15 @@ margin-top: 15px;
 .chosen_img
 {
  position: absolute;
- margin-top: 1026px;
+ margin-top: 826px;
+ width: 70%;
 }
 .hoodies_text
 {
   display: flex;
+ 
  flex-wrap: wrap;
- font-size: 20px;
+ font-size: 26px;
  line-height: 25px;
  text-align: center;
  
@@ -166,25 +168,25 @@ display:none;
 .Zipped_text
 { color: #000000;
   text-decoration: none;
-  margin-left: 25px;
+  margin-left: 95px;
   margin-right: 20px;
 }
 .Embrace_text
 { color: #000000;
   text-decoration: none;
-  margin-left: 100px;
+  margin-left: 150px;
   margin-right: 20px;
 }
 .Orchids_text
 {color: #000000;
   text-decoration: none;
-  margin-left: 30px;
+  margin-left: 95px;
   margin-right: 20px;
 }
 .Hoodie_text
 {color: #000000;
   text-decoration: none;
-  margin-left: 70px;
+  margin-left: 160px;
   margin-right: 20px;
 }
 .footer
@@ -245,6 +247,7 @@ list-style-type: disc;
     height: 500px;
     width: 700px;
 }
+
 .shoptext_hoodie
 {
   font-family: 'IM Fell English';
@@ -321,8 +324,9 @@ position: absolute;
   font-family: 'IM Fell English';
   position: absolute;
   text-decoration: none;
-  
-    font-size: 20px;
+  top: 360px;
+  margin-left: 680px;
+    font-size: 24px;
   line-height: 25px;
   color: white;
 }
@@ -349,6 +353,18 @@ margin-right: 10px;
   display: none;
 }
 .hoodies_adaptivefirstpair
+{
+  display: none;
+}
+.shop_adaptive_img
+{
+  display: none;
+}
+.backet_img_adaptive
+{
+  display: none;
+}
+.backetlink_adaptive
 {
   display: none;
 }

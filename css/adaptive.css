@@ -20,6 +20,20 @@
       font-size: 16px;
       height: 68px;
    }
+   .logo
+{
+  height: 36px;
+  width: 36px;
+  margin-top: 4px;
+  margin-left: 5px;
+}
+.headerlogo .logotext
+{
+font-size: 16px;
+margin-left: 5px;
+margin-top: 10px;
+color: white;
+}
    .headerlist
    {
     margin-top: 7px;
@@ -160,13 +174,19 @@ width: 400px;
 margin: 0px;
 
 }
+.shop_adaptive_img
+{
+   display: flex;
+   border: none;
+   width: 400px;
+   height: 415px;
+  border-bottom: 1px solid black;
+}
 .shop_img
 {
-   border: none;
- width: 400px;
- height: 415px;
-border-bottom: 1px solid black;
+ display: none;
 }
+
 .shoptext_hoodie
 {
    font-size: 18px;
@@ -198,7 +218,13 @@ margin-left: 270px;
 }
 .backet_img
 {
-top: 68px;
+display: none;
+}
+.backet_img_adaptive
+{
+   display: flex;
+   top: 68px;
+   width: 200px;
 }
 .backettext_hoodie
 {
@@ -209,7 +235,7 @@ top: 68px;
 .purchase_button
 {
   margin: 0px;
-   top: 315px;
+   top: 420px;
    width: 150px;
    height: 70px;
    left: 200px;
@@ -218,21 +244,33 @@ top: 68px;
 {
    font-size: 14px;
 margin: 0px;
-top: 150px;
+top: 10px;
 left: 10px;
 border-left: none;
 border-top: 1px solid black;
+}
+.backetlink
+{
+   display: none;
+ 
+
+}
+.backetlink_adaptive
+{ 
+   display: flex;
+   position: absolute;
+   margin: 0px;
+   top: 440px;
+   left: 215px;
+   font-size: 22px;
+   text-decoration: none;
+  color: white;
+  
+  
 
 }
 
 
 
-
-
-
-
-
-
-
-
-  }
+}
+ 
